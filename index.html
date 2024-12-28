@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pimenta Sinatra</title>
+    <link rel="stylesheet" href="./src/styles.css" type="text/css">
+    <script src="./src/script.js"></script>
+</head>
+<body>
+    <header class="logo-image">
+        <img src="./src/image/logo.png" alt="Pimenta Sinatra">
+    </header>
+    <nav>
+        <a href="#inicio" onclick="showSection('inicio'); return false;">Início</a>
+        <a href="#agenda" onclick="showSection('agenda'); return false;">Agenda</a>
+        <a href="#midia" onclick="showSection('midia'); return false;">Mídia</a>
+        <a href="#contato" onclick="showSection('contato'); return false;">Contato</a>
+        <a href="#vaquinha" onclick="showSection('vaquinha'); return false;">Vaquinha</a>
+    </nav>
+    <div class="hero">
+        <h1>Bem-vindo ao site da Pimenta Sinatra</h1>
+    </div>
+    <div class="container">
+        <div class="section" id="inicio" class="active">
+            <h2>Início</h2>
+            <p>Bem-vindo ao site oficial da banda Pimenta Sinatra. Aqui você encontra todas as informações sobre nossos shows, músicas, e muito mais.</p>
+        </div>
+        <div class="section" id="agenda">
+            <h2>Agenda</h2>
+            <p>Fique por dentro das próximas datas e locais dos nossos shows. Não perca a chance de nos ver ao vivo!</p>
+        </div>
+        <div class="section" id="midia">
+            <h2>Mídia</h2>
+            <p>Confira nossas fotos, vídeos e entrevistas. Veja tudo o que está rolando com a banda Pimenta Sinatra.</p>
+        </div>
+        <div class="section" id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações sobre shows, entrevistas e parcerias.</p>
+            <p>Telefone: (47) 99639-8560</p>
+            <p>Email: viniciusalfredo.s@gmail.com</p>
+        </div>
+        <div id="vaquinha">
+            <h2>Vaquinha</h2>
+            <div class="progress-container">
+                <h3>Progresso da Vaquinha</h3>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner">50%</div>
+                </div>
+                <div class="progress-legend">
+                    R$ 5.000 arrecadados de R$ 10.000
+                </div>                
+            </div>
+            <div class="qrcode-container">
+                <h3>Faça sua Doação via PIX</h3>
+                <img src="./src/image/qrcode.png" alt="QR Code para Doações">
+            </div>
+            <div class="donation-message">
+                <p>Qualquer valor é bem-vindo e nos ajuda a continuar criando música!</p>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        &copy; 2024 Pimenta Sinatra. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
