@@ -92,7 +92,7 @@ nav a:hover {
 .progress-bar-inner {
     background-color: #f39c12;
     height: 100%;
-    width: 0%; /* Atualize esta porcentagem conforme necessário */
+    width: 3.65%; /* Atualize esta porcentagem conforme necessário */
     text-align: center;
     line-height: 30px;
     color: #000;
